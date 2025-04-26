@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kaushan+Script&family=Knewave&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d58967e1d7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="stylesLogIn.css">
-    <title>Log In</title>
+    <link rel="stylesheet" href="stylesSignIn.css">
+    <title>Sign In</title>
 </head>
 <body>
     <div class="opaco"></div>
@@ -18,36 +18,48 @@
         <img src="logo.png" class="logo">
 
         <form class="cajaForm">
+            <div>
+                <label>Nombre</label>
+                <input type="text" class="inputNombre">
+
+                <label>Apellido</label>
+                <input type="text">
+            </div>
+
+            <label>Email</label>
+            <input type="email">
+
             <label>Nombre de usuario</label>
             <input type="text">
+
             <label>Contraseña</label>
             <input type="password">
- 
-            <button type="submit">Iniciar sesión</button>
+
+            <button type="submit">Registrarse</button>
         </form>
     </div>
 
     <footer>
         <div class="footerContainer">
-          <div class="footerLogo">
+            <div class="footerLogo">
             <img src="logo.png" alt="Logo del sitio">
-          </div>
+            </div>
     
-          <ul class="footerLinks">
+            <ul class="footerLinks">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#productos">Productos</a></li>
             <li><a href="#acerca">Acerca del club</a></li>
-          </ul>
+            </ul>
     
-          <div class="footerSocial">
+            <div class="footerSocial">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+            </div>
     
-          <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
         </div>
-      </footer>
+        </footer>
 </body>
 </html>

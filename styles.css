@@ -158,7 +158,6 @@ ul li {
 }
 
 .cajaProducto {
-  height: auto;
   width: 200px;
   margin: 20px;
   padding: 5px;
@@ -166,15 +165,14 @@ ul li {
   border-radius: 5px;
   min-width: 200px;
   transition: transform 0.3s ease;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .cajaProducto:hover {
   background-color: #73ceff;
   transform: scale(1.1);
-}
-
-#bufanda {
-  height: 200px;
 }
 
 .imgProd {
