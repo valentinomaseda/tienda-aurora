@@ -81,6 +81,13 @@ ul li {
   border: 3px solid #0077B6;
   color: #0077B6;
   font-weight: bolder;
+  transition: all .3s ease;
+}
+
+#logIn:hover {
+  background-color: #ffffff;
+  border: 3px solid #31a0dc;
+  color: #31a0dc;
 }
 
 #signIn {
@@ -88,6 +95,11 @@ ul li {
   border: none;
   background-color: #0077B6;
   font-weight: bolder;
+  transition: all .3s ease;
+}
+
+#signIn:hover {
+  background-color: #4ea2d0;
 }
 
 .nombre {

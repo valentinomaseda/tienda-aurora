@@ -14,16 +14,17 @@
 <body>
     <div class="opaco"></div>
 
-    <div class="cajaLogin">
+    <div class="cajaLogin" id="cajaLogin">
         <img src="logo.png" class="logo">
 
-        <form class="cajaForm">
+        <form class="cajaForm" id="cajaForm">
             <label>Nombre de usuario</label>
-            <input type="text">
+            <input type="text" id="input">
             <label>Contraseña</label>
-            <input type="password">
+            <input type="password" id="contra">
  
             <button type="submit">Iniciar sesión</button>
+            <p id="mensajeError"></p>
         </form>
     </div>
 
@@ -49,5 +50,7 @@
           <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
         </div>
       </footer>
+
+      <script src="scriptLogIn.js"></script>
 </body>
 </html>
