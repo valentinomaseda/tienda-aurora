@@ -356,3 +356,27 @@ footer {
 .footerSocial a:hover {
   color: white;
 }
+
+.botonMas {
+  border-radius: 50%;
+  width: 150px;
+  height: 361px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonMas button {
+  background-color: transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color .2s ease;
+}
+
+.botonMas button:hover {
+  background-color: #96d1ff;
+}

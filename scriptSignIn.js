@@ -21,7 +21,8 @@ form.addEventListener('submit', function(event) {
         mensajeError.style.position = "fixed";
         mensajeError.style.bottom = "20px";
         mensajeError.style.right = "20px";
-        mensajeError.style.boxShadow = "0 0 15px black"
+        mensajeError.style.boxShadow = "0 0 15px black";
+        mensajeError.style.zIndex = "9999";
     }
 
     event.preventDefault();
